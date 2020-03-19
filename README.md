@@ -3,8 +3,8 @@ Bert-trial is using:
 1) pytorch_pretrained_bert == 0.4.0 ```!pip3 install pytorch_pretrained_bert==0.4.0```
 2) seqeval ```!pip install seqeval```
 
-In the latest update for pytorch_pretrained_bert by [huggingface](https://huggingface.co/transformers/model_doc/bert.html) (ver>0.5.0)
-you need to pad sequence not with **'O'** but with **'[PAD]'** token.
+In the latest update for pytorch_pretrained_bert by [huggingface](https://huggingface.co/transformers/model_doc/bert.html) (ver>0.5.0)    
+So you need to pad sequence not with **'O'** but with **'[PAD]'** token.
 
 Tasks
 - [x] Basic BertForTokenClassification
