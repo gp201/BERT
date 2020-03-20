@@ -29,4 +29,4 @@ If multiple tags or no tags are present it will be present in the given format.
 
 Tasks
 - [x] Convert a given corpus into [word,tag] format [create_dataset.ipynb](create_dataset.ipynb).
-- [ ] Bugfix with regard to numbers and symbols
+- [ ] Bugfix with regard to numbers and symbols ex:(AF) not recognized as T047 numbers are taken as a new sentence.
