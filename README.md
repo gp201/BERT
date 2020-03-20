@@ -12,3 +12,21 @@ Tasks
 - [ ] Look into implememnting the *[CLS]* token in the beginning.   
 
 > BERT prepends a [CLS] token (short for "classification") to the start of each sentence (this is essentially like a start-of-sentence token). 
+
+## Data
+The data folder contains the corpus.    
+[The dataset.csv](data/dataset.csv) file contains a model O/P for a single abstract.   
+If multiple tags are present it will be present in the given format.
+
+| Word            | Tag       |
+| --------------- |:---------:|
+| associated	    | 0         |
+| with	          | 0         |  
+| coronary	      | T019,T047 |  
+| sinus	          | T019,T047 |
+
+> The tags can be obtained by simply splitting the tag field ```tag.split(,)```     
+
+Tasks
+- [x] Convert a given corpus into [word,tag] format [create_dataset.ipynb](create_dataset.ipynb).
+- [ ] Bugfix with regard to numbers and symbols
