@@ -16,7 +16,7 @@ Tasks
 ## Data
 The data folder contains the corpus.    
 [The dataset.csv](data/dataset.csv) file contains a model O/P for a single abstract.   
-If multiple tags are present it will be present in the given format.
+If multiple tags or no tags are present it will be present in the given format.
 
 | Word            | Tag       |
 | --------------- |:---------:|
@@ -25,7 +25,7 @@ If multiple tags are present it will be present in the given format.
 | coronary	      | T019,T047 |  
 | sinus	          | T019,T047 |
 
-> The tags can be obtained by simply splitting the tag field ```tag.split(,)```     
+> The individual tags can be obtained by simply splitting the tag field ```tag.split(,)```     
 
 Tasks
 - [x] Convert a given corpus into [word,tag] format [create_dataset.ipynb](create_dataset.ipynb).
