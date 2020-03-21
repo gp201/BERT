@@ -1,5 +1,12 @@
 # BERT
-Bert-trial is using: 
+There are 2 models in this repository
+1) Bert-trial 
+> This is the first model that was made Details given below
+2) Bert_custom
+> This is the next custom model. The details are given in the Readme file in the folder Bert_custom
+
+## Bert-trial
+It is using: 
 1) pytorch_pretrained_bert == 0.4.0 ```!pip3 install pytorch_pretrained_bert==0.4.0```
 2) seqeval ```!pip install seqeval```
 
@@ -13,7 +20,7 @@ Tasks
 
 > BERT prepends a [CLS] token (short for "classification") to the start of each sentence (this is essentially like a start-of-sentence token). 
 
-## Data
+### Data
 The data folder contains the corpus.    
 [The dataset.csv](data/dataset.csv) file contains a model O/P for a single abstract.   
 If multiple tags or no tags are present it will be present in the given format.
