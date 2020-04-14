@@ -8,7 +8,7 @@ The dataset are text files which have Tab implementation type (.csv -> .txt)
 
 If you have a doubt as how ColumnCorpus in flair works take a look at this [thread](https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_6_CORPUS.md)
 
-##Each file desc
+## Each file desc
 [Bert_custom_run.ipynb](Bert_custom_run.ipynb)   
 This file trains the model.
     
