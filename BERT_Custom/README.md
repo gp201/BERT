@@ -31,3 +31,10 @@ T047	T047	T047	T047	O	T047	T047	T047	T101	O	O	O	O	T079	T079	T047	T047	O	T169	T16
 This creates a train and test datafile   
 - [ ] make sure the number of sentences in train and test is 70:30
 > currently iys placing all the unique/first occurences of a word with tags other than 'O' in train.
+
+## Steps to run
+1) Run create_dataset_2.ipynb to get train and test files
+2) Run creste_labelled.ipynb to get the labelled.txt file
+3) Run Bert_custom_run.ipynbto train the model.
+4) Restore_bert_model.ipynb to restore th model
+ 
