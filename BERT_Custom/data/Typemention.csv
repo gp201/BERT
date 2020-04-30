@@ -1,0 +1,128 @@
+TypeName,TypeID
+Event,T051
+  Activity,T052
+    Behavior,T053
+      Social Behavior,T054
+      Individual Behavior,T055
+    Daily or Recreational Activity,T056
+    Occupational Activity,T057
+      Health Care Activity,T058
+        Laboratory Procedure,T059
+        Diagnostic Procedure,T060
+        Therapeutic or Preventive Procedure,T061
+      Research Activity,T062
+        Molecular Biology Research Technique,T063
+      Governmental or Regulatory Activity,T064
+      Educational Activity,T065
+    Machine Activity,T066
+  Phenomenon or Process,T067
+    Injury or Poisoning,T037
+    Human-caused Phenomenon or Process,T068
+      Environmental Effect of Humans,T069
+    Natural Phenomenon or Process,T070
+      Biologic Function,T038
+        Physiologic Function,T039
+          Organism Function,T040
+            Mental Process,T041
+          Organ or Tissue Function,T042
+          Cell Function,T043
+          Molecular Function,T044
+            Genetic Function,T045
+        Pathologic Function,T046
+          Disease or Syndrome,T047
+            Mental or Behavioral Dysfunction,T048
+            Neoplastic Process,T191
+          Cell or Molecular Dysfunction,T049
+          Experimental Model of Disease,T050
+Entity,T071
+  Physical Object,T072
+    Organism,T001
+      Virus,T005
+      Bacterium,T007
+      Archaeon,T194
+      Eukaryote,T204
+        Plant,T002
+        Fungus,T004
+        Animal,T008
+          Vertebrate,T010
+            Amphibian,T011
+            Bird,T012
+            Fish,T013
+            Reptile,T014
+            Mammal,T015
+              Human,T016
+    Anatomical Structure,T017
+      Embryonic Structure,T018
+      Fully Formed Anatomical Structure,T021
+"        Body Part, Organ, or Organ Component",T023
+        Tissue,T024
+        Cell,T025
+        Cell Component,T026
+        Gene or Genome,T028
+      Anatomical Abnormality,T190
+        Congenital Abnormality,T019
+        Acquired Abnormality,T020
+    Manufactured Object,T073
+      Medical Device,T074
+        Drug Delivery Device,T203
+      Research Device,T075
+      Clinical Drug,T200
+    Substance,T167
+      Body Substance,T031
+      Chemical,T103
+        Chemical Viewed Structurally,T104
+          Organic Chemical,T109
+"            Nucleic Acid, Nucleoside, or Nucleotide",T114
+"            Amino Acid, Peptide, or Protein",T116
+"          Element, Ion, or Isotope",T196
+          Inorganic Chemical,T197
+        Chemical Viewed Functionally,T120
+          Pharmacologic Substance,T121
+            Antibiotic,T195
+          Biomedical or Dental Material,T122
+          Biologically Active Substance,T123
+            Hormone,T125
+            Enzyme,T126
+            Vitamin,T127
+            Immunologic Factor,T129
+            Receptor,T192
+"          Indicator, Reagent, or Diagnostic Aid",T130
+          Hazardous or Poisonous Substance,T131
+      Food,T168
+  Conceptual Entity,T077
+    Organism Attribute,T032
+      Clinical Attribute,T201
+    Finding,T033
+      Laboratory or Test Result,T034
+      Sign or Symptom,T184
+    Idea or Concept,T078
+      Temporal Concept,T079
+      Qualitative Concept,T080
+      Quantitative Concept,T081
+      Spatial Concept,T082
+        Body Location or Region,T029
+        Body Space or Junction,T030
+        Geographic Area,T083
+        Molecular Sequence,T085
+          Nucleotide Sequence,T086
+          Amino Acid Sequence,T087
+          Carbohydrate Sequence,T088
+      Functional Concept,T169
+        Body System,T022
+    Occupation or Discipline,T090
+      Biomedical Occupation or Discipline,T091
+    Organization,T092
+      Health Care Related Organization,T093
+      Professional Society,T094
+      Self-help or Relief Organization,T095
+    Group,T096
+      Professional or Occupational Group,T097
+      Population Group,T098
+      Family Group,T099
+      Age Group,T100
+      Patient or Disabled Group,T101
+    Group Attribute,T102
+    Intellectual Product,T170
+      Regulation or Law,T089
+      Classification,T185
+    Language,T171
