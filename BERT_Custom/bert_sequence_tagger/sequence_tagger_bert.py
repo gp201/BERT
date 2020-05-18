@@ -147,7 +147,7 @@ class SequenceTaggerBert:
                                               labels=label_ids,)
                 
                 if evaluate:
-                    loss, logits = logits
+                    loss, logits,att = logits
                     cum_loss += loss.mean().item()
                 else:
                     logits = logits[0]

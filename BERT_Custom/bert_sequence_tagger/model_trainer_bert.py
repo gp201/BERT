@@ -1,5 +1,5 @@
 import torch
-from pytorch_transformers import AdamW
+from transformers import AdamW
 from torch.utils.data import DataLoader
 
 import copy

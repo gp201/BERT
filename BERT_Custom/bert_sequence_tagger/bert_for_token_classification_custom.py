@@ -1,4 +1,4 @@
-from pytorch_transformers import BertForTokenClassification
+from transformers import BertForTokenClassification
 
 from torch.nn import CrossEntropyLoss
 
