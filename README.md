@@ -1,5 +1,11 @@
 # BERT
-There are 2 models in this repository     
+There are 2 models in this repository   
+
+## Required:
+- Flair (0.4.5)
+- pytorch_transformers (1.2.0)
+- seqeval (0.0.12)
+- tqdm (4.41.1)
 
 ## 1) [Bert_trial](https://github.com/gp201/BERT/tree/master/Bert_trial)
 This is a basic model made using BertForTokenClassification([Developed by huggingface](https://huggingface.co/transformers/model_doc/bert.html)) from pytorch.   
