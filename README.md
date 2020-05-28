@@ -4,6 +4,7 @@ There are 2 models in this repository
 ## Required:
 - Flair (0.4.5)
 - pytorch_transformers (1.2.0)
+- transformers (2.10.0)
 - seqeval (0.0.12)
 - tqdm (4.41.1)
 
